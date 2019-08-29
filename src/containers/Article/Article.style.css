@@ -1,0 +1,58 @@
+.article-container{
+	position: relative;
+	padding-bottom: 20px;
+}
+.article-container .article{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+.article-container .cover{
+	width: 400px;
+	height: 300px;
+}
+.article-container .title{
+	font-size: 48px;
+	font-weight: bold;
+}
+.article-container .author{
+	font-size: 10px;
+	font-style: italic;
+}
+.article-container .content{
+	width: 95%;
+}
+.article-container .icons-container{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.article-container .edit-button{
+	cursor: pointer;
+	font-size: 20px;
+	transition: 0.3s;
+}
+.article-container .edit-button:hover{
+	opacity: 0.5;
+}
+.article-container .delete-button{
+	cursor: pointer;
+	font-size: 20px;
+	transition: 0.3s;
+}
+.article-container .delete-button:hover{
+	opacity: 0.5;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.article-container .cover{
+		width: 80%;
+		height: 300px;
+	}
+}

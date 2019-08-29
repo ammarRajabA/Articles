@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner component match snapshot 1`] = `
+<Spinner>
+  <div
+    className="container"
+  >
+    <div
+      className="loader"
+    />
+    <h1 />
+  </div>
+</Spinner>
+`;

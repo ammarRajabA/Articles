@@ -1,0 +1,28 @@
+.menu-popup-container{
+	position: absolute;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+	z-index: 1;
+	padding-right:20px;
+	right: 10px;
+	width: 150px;
+}
+.menu-popup-container .menu-option{
+	color: #333333;
+	width: 100%;
+	cursor: pointer;
+	transition: 0.3s;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	border-bottom: 1px solid #E3E3E3;
+}
+.menu-popup-container .menu-option:hover{
+	background-color: #E1E1E1
+}

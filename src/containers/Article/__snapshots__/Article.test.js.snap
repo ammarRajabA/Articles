@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article component match snapshot 1`] = `
+<Article
+  article={
+    Object {
+      "author": "Ammar Rajab",
+      "content": "{\\"blocks\\":[{\\"key\\":\\"5viej\\",\\"text\\":\\"This is my first article, it so cool I can color words \\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":49,\\"length\\":5,\\"style\\":\\"color-rgb(243,121,52)\\"}],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"dh0hv\\",\\"text\\":\\"I can also make bold italic or any other style.\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":16,\\"length\\":5,\\"style\\":\\"BOLD\\"},{\\"offset\\":21,\\"length\\":7,\\"style\\":\\"ITALIC\\"}],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"blt1q\\",\\"text\\":\\"I also can write math 25 =32\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":23,\\"length\\":2,\\"style\\":\\"SUPERSCRIPT\\"}],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"ddclt\\",\\"text\\":\\"📣 Attention here : My Github account Ammar Rajab \\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":2,\\"length\\":48,\\"style\\":\\"color-rgb(209,72,65)\\"}],\\"entityRanges\\":[{\\"offset\\":38,\\"length\\":11,\\"key\\":0}],\\"data\\":{}}],\\"entityMap\\":{\\"0\\":{\\"type\\":\\"LINK\\",\\"mutability\\":\\"MUTABLE\\",\\"data\\":{\\"url\\":\\"https://github.com/ammarrajaba\\",\\"targetOption\\":\\"_blank\\"}}}}",
+      "id": "13245",
+      "image": "https://picsum.photos/id/258/200/300",
+      "title": "first",
+    }
+  }
+  getArticle={[Function]}
+  match={
+    Object {
+      "params": Object {
+        "id": "13245",
+      },
+    }
+  }
+>
+  <div
+    className="article-container"
+  >
+    <span
+      className="icons-container"
+    >
+      <span
+        className="edit-button"
+        onClick={[Function]}
+      >
+        <i
+          className="fas fa-edit"
+        />
+      </span>
+      <span
+        className="delete-button"
+        onClick={[Function]}
+      >
+        <i
+          className="fas fa-trash"
+        />
+      </span>
+    </span>
+    <div
+      className="article"
+    >
+      <img
+        className="cover"
+        src="https://picsum.photos/id/258/200/300"
+      />
+      <span
+        className="title"
+      >
+        first
+      </span>
+      <span
+        className="author"
+      >
+        by 
+        Ammar Rajab
+      </span>
+      <div
+        className="content"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p>This is my first article, it so cool I can color words&nbsp;</p>
+<p>I can also make <strong>bold </strong><em>italic </em>or any other style.</p>
+<p>I also can write math 25 =32</p>
+<p>📣 Attention here : My Github account A<a href=\\"https://github.com/ammarrajaba\\">mmar Rajab&nbsp;</a></p>",
+          }
+        }
+      />
+    </div>
+  </div>
+</Article>
+`;

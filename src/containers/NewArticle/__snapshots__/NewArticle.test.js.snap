@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article component match snapshot 1`] = `
+<NewArticle
+  article={
+    Object {
+      "author": "Ammar Rajab",
+      "content": "{\\"blocks\\":[{\\"key\\":\\"5viej\\",\\"text\\":\\"This is my first article, it so cool I can color words \\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":49,\\"length\\":5,\\"style\\":\\"color-rgb(243,121,52)\\"}],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"dh0hv\\",\\"text\\":\\"I can also make bold italic or any other style.\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":16,\\"length\\":5,\\"style\\":\\"BOLD\\"},{\\"offset\\":21,\\"length\\":7,\\"style\\":\\"ITALIC\\"}],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"blt1q\\",\\"text\\":\\"I also can write math 25 =32\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":23,\\"length\\":2,\\"style\\":\\"SUPERSCRIPT\\"}],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"ddclt\\",\\"text\\":\\"📣 Attention here : My Github account Ammar Rajab \\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":2,\\"length\\":48,\\"style\\":\\"color-rgb(209,72,65)\\"}],\\"entityRanges\\":[{\\"offset\\":38,\\"length\\":11,\\"key\\":0}],\\"data\\":{}}],\\"entityMap\\":{\\"0\\":{\\"type\\":\\"LINK\\",\\"mutability\\":\\"MUTABLE\\",\\"data\\":{\\"url\\":\\"https://github.com/ammarrajaba\\",\\"targetOption\\":\\"_blank\\"}}}}",
+      "id": "13245",
+      "image": "https://picsum.photos/id/258/200/300",
+      "loading": false,
+      "title": "first",
+    }
+  }
+  debug={true}
+  match={
+    Object {
+      "params": Object {
+        "id": "13245",
+      },
+    }
+  }
+>
+  <div
+    className="new-article-container"
+  >
+    <span
+      className="cover-image-container"
+    >
+      <img
+        className="cover-image"
+        src="https://picsum.photos/id/258/200/300"
+      />
+      <label
+        className="label"
+        htmlFor="image"
+      >
+        Click here to upload image
+      </label>
+      <Input
+        accept="image/png, image/jpeg"
+        id="image"
+        onChange={[Function]}
+        type="file"
+      >
+        <input
+          accept="image/png, image/jpeg"
+          className="form-control-file"
+          id="image"
+          onChange={[Function]}
+          type="file"
+        />
+      </Input>
+    </span>
+    <div
+      className="form-container"
+    >
+      <Form
+        tag="form"
+      >
+        <form
+          className=""
+        >
+          <FormGroup
+            tag="div"
+          >
+            <div
+              className="form-group"
+            >
+              <Input
+                onChange={[Function]}
+                placeholder="Title"
+                type="text"
+                value="first"
+              >
+                <input
+                  className="form-control"
+                  onChange={[Function]}
+                  placeholder="Title"
+                  type="text"
+                  value="first"
+                />
+              </Input>
+            </div>
+          </FormGroup>
+        </form>
+      </Form>
+      <Button
+        color="secondary"
+        onClick={[Function]}
+        size="lg"
+        tag="button"
+      >
+        <button
+          aria-label={null}
+          className="btn btn-secondary btn-lg"
+          onClick={[Function]}
+          type="button"
+        >
+          Submit Article
+        </button>
+      </Button>
+    </div>
+    <div />
+  </div>
+</NewArticle>
+`;

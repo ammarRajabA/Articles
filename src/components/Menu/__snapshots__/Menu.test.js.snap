@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu component match snapshot 1`] = `
+<Menu
+  links={
+    Object {
+      "About": [Function],
+      "Articles": [Function],
+      "Home": [Function],
+      "New Article": [Function],
+    }
+  }
+  show={true}
+>
+  <div
+    className="menu-popup-container"
+  >
+    <span
+      className="menu-option"
+      key="0"
+      onClick={[Function]}
+    >
+      Home
+    </span>
+    <span
+      className="menu-option"
+      key="1"
+      onClick={[Function]}
+    >
+      Articles
+    </span>
+    <span
+      className="menu-option"
+      key="2"
+      onClick={[Function]}
+    >
+      New Article
+    </span>
+    <span
+      className="menu-option"
+      key="3"
+      onClick={[Function]}
+    >
+      About
+    </span>
+  </div>
+</Menu>
+`;

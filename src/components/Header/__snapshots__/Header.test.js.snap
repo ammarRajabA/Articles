@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component match snapshot 1`] = `
+<Header
+  links={
+    Object {
+      "About": [Function],
+      "Articles": [Function],
+      "Home": [Function],
+      "New Article": [Function],
+    }
+  }
+>
+  <div
+    className="header-container"
+  >
+    <span
+      className="header-logo-container"
+    >
+      <img
+        className="logo"
+        src="/logo.png"
+      />
+      <span
+        className="label"
+      >
+        Articles
+      </span>
+    </span>
+    <span
+      className="header-item"
+      key="0"
+      onClick={[Function]}
+    >
+      Home
+    </span>
+    <span
+      className="header-item"
+      key="1"
+      onClick={[Function]}
+    >
+      Articles
+    </span>
+    <span
+      className="header-item"
+      key="2"
+      onClick={[Function]}
+    >
+      New Article
+    </span>
+    <span
+      className="header-item"
+      key="3"
+      onClick={[Function]}
+    >
+      About
+    </span>
+    <div
+      className="header-childs"
+    >
+      <div
+        className="menu-container"
+      >
+        <span
+          className="menu-button"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-bars"
+          />
+        </span>
+        <Menu
+          links={
+            Object {
+              "About": [Function],
+              "Articles": [Function],
+              "Home": [Function],
+              "New Article": [Function],
+            }
+          }
+          onDismiss={[Function]}
+          show={false}
+        >
+          <span />
+        </Menu>
+      </div>
+    </div>
+  </div>
+</Header>
+`;

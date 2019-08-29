@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid component match snapshot 1`] = `
+<Grid
+  cols={3}
+  items={
+    Array [
+      Object {
+        "author": "Ammar Rajab",
+        "content": "{\\"blocks\\":[{\\"key\\":\\"5viej\\",\\"text\\":\\"This is my first article, it so cool I can color words \\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":49,\\"length\\":5,\\"style\\":\\"color-rgb(243,121,52)\\"}],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"dh0hv\\",\\"text\\":\\"I can also make bold italic or any other style.\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":16,\\"length\\":5,\\"style\\":\\"BOLD\\"},{\\"offset\\":21,\\"length\\":7,\\"style\\":\\"ITALIC\\"}],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"blt1q\\",\\"text\\":\\"I also can write math 25 =32\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":23,\\"length\\":2,\\"style\\":\\"SUPERSCRIPT\\"}],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"ddclt\\",\\"text\\":\\"📣 Attention here : My Github account Ammar Rajab \\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":2,\\"length\\":48,\\"style\\":\\"color-rgb(209,72,65)\\"}],\\"entityRanges\\":[{\\"offset\\":38,\\"length\\":11,\\"key\\":0}],\\"data\\":{}}],\\"entityMap\\":{\\"0\\":{\\"type\\":\\"LINK\\",\\"mutability\\":\\"MUTABLE\\",\\"data\\":{\\"url\\":\\"https://github.com/ammarrajaba\\",\\"targetOption\\":\\"_blank\\"}}}}",
+        "id": "13245",
+        "image": "https://picsum.photos/id/258/200/300",
+        "title": "first",
+      },
+      Object {
+        "author": "Ammar Rajab",
+        "content": "{\\"blocks\\":[{\\"key\\":\\"35tp4\\",\\"text\\":\\"Another article by me,\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"a1v72\\",\\"text\\":\\"It shows how we align text\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"cifh6\\",\\"text\\":\\"Left\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"b5gsb\\",\\"text\\":\\"Middle\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[],\\"entityRanges\\":[],\\"data\\":{\\"text-align\\":\\"center\\"}},{\\"key\\":\\"eopjr\\",\\"text\\":\\"and right\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[],\\"entityRanges\\":[],\\"data\\":{\\"text-align\\":\\"right\\"}},{\\"key\\":\\"1h6bs\\",\\"text\\":\\"\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"d3mrc\\",\\"text\\":\\"and change font\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":0,\\"length\\":15,\\"style\\":\\"fontfamily-Impact\\"}],\\"entityRanges\\":[],\\"data\\":{}}],\\"entityMap\\":{}}",
+        "id": "15555",
+        "image": "https://picsum.photos/id/232/200/300",
+        "title": "Second",
+      },
+      Object {
+        "author": "Ammar Rajab",
+        "content": "{\\"blocks\\":[{\\"key\\":\\"5viej\\",\\"text\\":\\"This is my first article, it so cool I can color words \\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":49,\\"length\\":5,\\"style\\":\\"color-rgb(243,121,52)\\"}],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"dh0hv\\",\\"text\\":\\"I can also make bold italic or any other style.\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":16,\\"length\\":5,\\"style\\":\\"BOLD\\"},{\\"offset\\":21,\\"length\\":7,\\"style\\":\\"ITALIC\\"}],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"blt1q\\",\\"text\\":\\"I also can write math 25 =32\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":23,\\"length\\":2,\\"style\\":\\"SUPERSCRIPT\\"}],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"ddclt\\",\\"text\\":\\"📣 Attention here : My Github account Ammar Rajab \\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":2,\\"length\\":48,\\"style\\":\\"color-rgb(209,72,65)\\"}],\\"entityRanges\\":[{\\"offset\\":38,\\"length\\":11,\\"key\\":0}],\\"data\\":{}}],\\"entityMap\\":{\\"0\\":{\\"type\\":\\"LINK\\",\\"mutability\\":\\"MUTABLE\\",\\"data\\":{\\"url\\":\\"https://github.com/ammarrajaba\\",\\"targetOption\\":\\"_blank\\"}}}}",
+        "id": "13445",
+        "image": "https://picsum.photos/id/258/200/300",
+        "title": "Third",
+      },
+      Object {
+        "author": "Ammar Rajab",
+        "content": "{\\"blocks\\":[{\\"key\\":\\"35tp4\\",\\"text\\":\\"Another article by me,\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"a1v72\\",\\"text\\":\\"It shows how we align text\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"cifh6\\",\\"text\\":\\"Left\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"b5gsb\\",\\"text\\":\\"Middle\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[],\\"entityRanges\\":[],\\"data\\":{\\"text-align\\":\\"center\\"}},{\\"key\\":\\"eopjr\\",\\"text\\":\\"and right\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[],\\"entityRanges\\":[],\\"data\\":{\\"text-align\\":\\"right\\"}},{\\"key\\":\\"1h6bs\\",\\"text\\":\\"\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[],\\"entityRanges\\":[],\\"data\\":{}},{\\"key\\":\\"d3mrc\\",\\"text\\":\\"and change font\\",\\"type\\":\\"unstyled\\",\\"depth\\":0,\\"inlineStyleRanges\\":[{\\"offset\\":0,\\"length\\":15,\\"style\\":\\"fontfamily-Impact\\"}],\\"entityRanges\\":[],\\"data\\":{}}],\\"entityMap\\":{}}",
+        "id": "15005",
+        "image": "https://picsum.photos/id/232/200/300",
+        "title": "Forth",
+      },
+    ]
+  }
+>
+  <div
+    className="grid-container"
+  >
+    <span
+      className="grid-card-deck"
+      key="0"
+    >
+      <span
+        className="grid-card"
+        key="0"
+      >
+        <CardImg
+          alt="Card image cap"
+          height="50%"
+          src="https://picsum.photos/id/258/200/300"
+          tag="img"
+          top={true}
+          width="50%"
+        >
+          <img
+            alt="Card image cap"
+            className="card-img-top"
+            height="50%"
+            src="https://picsum.photos/id/258/200/300"
+            width="50%"
+          />
+        </CardImg>
+        <CardBody
+          tag="div"
+        >
+          <div
+            className="card-body"
+          >
+            <div
+              className="title"
+            >
+              first
+            </div>
+            <div
+              className="subtitle"
+            >
+              Ammar Rajab
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>This is my first article, it so cool I can color words&nbsp;</p>
+<p>I can also make <strong>bold ...",
+                  }
+                }
+              />
+            </div>
+            <Button
+              color="secondary"
+              onClick={[Function]}
+              tag="button"
+            >
+              <button
+                aria-label={null}
+                className="btn btn-secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                Read more
+              </button>
+            </Button>
+          </div>
+        </CardBody>
+      </span>
+      <span
+        className="grid-card"
+        key="1"
+      >
+        <CardImg
+          alt="Card image cap"
+          height="50%"
+          src="https://picsum.photos/id/232/200/300"
+          tag="img"
+          top={true}
+          width="50%"
+        >
+          <img
+            alt="Card image cap"
+            className="card-img-top"
+            height="50%"
+            src="https://picsum.photos/id/232/200/300"
+            width="50%"
+          />
+        </CardImg>
+        <CardBody
+          tag="div"
+        >
+          <div
+            className="card-body"
+          >
+            <div
+              className="title"
+            >
+              Second
+            </div>
+            <div
+              className="subtitle"
+            >
+              Ammar Rajab
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>Another article by me,</p>
+<p>It shows how we align text</p>
+<p>Left</p>
+<p>Middle</p>
+<p>and rig...",
+                  }
+                }
+              />
+            </div>
+            <Button
+              color="secondary"
+              onClick={[Function]}
+              tag="button"
+            >
+              <button
+                aria-label={null}
+                className="btn btn-secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                Read more
+              </button>
+            </Button>
+          </div>
+        </CardBody>
+      </span>
+      <span
+        className="grid-card"
+        key="2"
+      >
+        <CardImg
+          alt="Card image cap"
+          height="50%"
+          src="https://picsum.photos/id/258/200/300"
+          tag="img"
+          top={true}
+          width="50%"
+        >
+          <img
+            alt="Card image cap"
+            className="card-img-top"
+            height="50%"
+            src="https://picsum.photos/id/258/200/300"
+            width="50%"
+          />
+        </CardImg>
+        <CardBody
+          tag="div"
+        >
+          <div
+            className="card-body"
+          >
+            <div
+              className="title"
+            >
+              Third
+            </div>
+            <div
+              className="subtitle"
+            >
+              Ammar Rajab
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>This is my first article, it so cool I can color words&nbsp;</p>
+<p>I can also make <strong>bold ...",
+                  }
+                }
+              />
+            </div>
+            <Button
+              color="secondary"
+              onClick={[Function]}
+              tag="button"
+            >
+              <button
+                aria-label={null}
+                className="btn btn-secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                Read more
+              </button>
+            </Button>
+          </div>
+        </CardBody>
+      </span>
+    </span>
+    <span
+      className="grid-card-deck"
+      key="1"
+    >
+      <span
+        className="grid-card"
+        key="0"
+      >
+        <CardImg
+          alt="Card image cap"
+          height="50%"
+          src="https://picsum.photos/id/232/200/300"
+          tag="img"
+          top={true}
+          width="50%"
+        >
+          <img
+            alt="Card image cap"
+            className="card-img-top"
+            height="50%"
+            src="https://picsum.photos/id/232/200/300"
+            width="50%"
+          />
+        </CardImg>
+        <CardBody
+          tag="div"
+        >
+          <div
+            className="card-body"
+          >
+            <div
+              className="title"
+            >
+              Forth
+            </div>
+            <div
+              className="subtitle"
+            >
+              Ammar Rajab
+            </div>
+            <div
+              className="content"
+            >
+              <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>Another article by me,</p>
+<p>It shows how we align text</p>
+<p>Left</p>
+<p>Middle</p>
+<p>and rig...",
+                  }
+                }
+              />
+            </div>
+            <Button
+              color="secondary"
+              onClick={[Function]}
+              tag="button"
+            >
+              <button
+                aria-label={null}
+                className="btn btn-secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                Read more
+              </button>
+            </Button>
+          </div>
+        </CardBody>
+      </span>
+    </span>
+  </div>
+</Grid>
+`;
