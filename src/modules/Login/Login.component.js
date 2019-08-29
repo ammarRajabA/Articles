@@ -15,7 +15,8 @@ class Login extends Component{
 		}
 	}
 	handleSubmit=()=>{
-		this.props.loginUser(this.state)
+		if (!(this.state.email.length===0 || this.state.password.length===0))
+			this.props.loginUser(this.state)
 	}
 	render(){
 		return (

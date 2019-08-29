@@ -23,6 +23,7 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state={showLogin:false}
+    localStorage.clear();
     this.user=JSON.parse(localStorage.getItem('user'))
     if (this.user) history.push('/articles')
   }
